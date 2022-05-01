@@ -20,5 +20,5 @@ async def on_message(message):
     else:
         await message.channel.send("sorry command not found!")
 
-client.run('ODQxNzQ5Mzk3MzA2MjEyMzcy.YJrSNw._LN0UYK3CXXDo9guZsEp_uwIRPE')
+client.run('TOKEN')
 
