@@ -15,10 +15,11 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+
     if message.content.startswith("$hello"):
             await message.channel.send("Hello!")
     else:
         await message.channel.send("sorry command not found!")
 
-client.run('TOKEN')
+client.run('OTOKEN')
 
